@@ -68,12 +68,10 @@ public class Tesis extends Escrito {
 		int total = palabrasPagina*factor*this.getPaginas();
 		return total;
 	}
-
 	@Override
 	 public String interpretacion() {
 		return interpretacion;
 	}
-
 	@Override
 	public String toString() {
 		return resumen() + "\n" + this.idea+ "\n" + Tesis.argumentos.length + "\n" + this.conclusion+ "\n" + this.referencias;
